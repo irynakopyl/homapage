@@ -1,16 +1,14 @@
-#year{
-    color: rgb(141, 52, 46);;
+.year{
+    color: rgb(141, 52, 46);
 }
 #wave {
     color: rgb(57, 29, 156);
-    box-sizing :content-box;
+    box-sizing: content-box;
     display: block;
     float: none;
     line-height: 20px;
     position: absolute;
-
 }
-
 #wave svg {
     display: block;
     position: relative;
