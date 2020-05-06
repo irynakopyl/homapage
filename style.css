@@ -3,16 +3,19 @@
 }
 #wave {
     color: rgb(57, 29, 156);
+    padding-top: calc((100% - 1100px) / 2);
+    height: 7em;
     box-sizing: content-box;
-    display: block;
-    float: none;
-    line-height: 20px;
+    background: currentColor;
     position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 #wave svg {
     display: block;
     position: relative;
-    line-height: 1.4285em;
+    top: calc(7em - 1px);
 }
 .name:hover{
     color:rgb(57, 29, 156);
